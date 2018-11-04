@@ -21,7 +21,7 @@ Program functions:
 *Lobby: Contains all the messages of all the users. However not all users have permission to enter this section.
 *Manage database: Assembles all super admin’s functions : create and update all program’s users, backup all messages to a text file.
 
-MUSQL database: Consists of six tables:
+MYSQL database: Consists of six tables:
 *Users: Comprises users’ data with PK the id field.
 *Roles: Includes the roles of the program. Each user has a role from this table.
 *Message: Contains all the messages sent from the users. It includes the data, the message id and the date of the message, as well as the date of its update, if there is one.
